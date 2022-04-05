@@ -13,8 +13,8 @@ const Homepage = () => {
      };
     return (
         <div>
-            <div className = 'grid grid-cols-2 gap-4 flex' >
-                <h1><span className='text-5xl font-medium text-green-700'>Best Laptop In Budget<br></br> Value For Money</span> <p className='text-xl'>With so many laptops to choose from, selecting the best one to fit your budget can be like navigating a minefield. Even making sense of the ever-changing list of product specifications is no easy feat. Laptops vary greatly by CPU speed, graphics capability, size, drive storage, and RAM, among other things. What’s more, your laptop needs may be completely different to someone else’s, only adding to the confusion.</p></h1>
+            <div className = 'grid grid-cols-2 gap-4' >
+                <h1><span className='text-5xl font-medium text-green-700 mb-2'>Best Laptop In Budget Segement</span> <p className='text-xl'>With so many laptops to choose from, selecting the best one to fit your budget can be like navigating a minefield. Even making sense of the ever-changing list of product specifications is no easy feat. Laptops vary greatly by CPU speed, graphics capability, size, drive storage, and RAM, among other things. What’s more, your laptop needs may be completely different to someone else’s, only adding to the confusion.</p></h1>
             
                 <img className ='mt-4 w-90' src = 'https://m.media-amazon.com/images/I/619-1yADoiL._AC_SY450_.jpg' alt=''/>
                 
