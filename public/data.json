@@ -2,20 +2,20 @@
   {
     "id": 1,
     "name": "Short Best",
-    "review": "Best in Budget",
-    "ratings": 3
+    "review": "Best laptop in budget segment",
+    "ratings": 4.7
   },
   {
     "id": 2,
     "name": "Lynne Logan",
-    "review": "Best in Budget",
-    "ratings": 1
+    "review": "Value for money products. Recommended !",
+    "ratings": 4.9
   },
   {
     "id": 3,
     "name": "Ester Key",
-    "review": "Best in Budget",
-    "ratings": 2
+    "review": "One of the best laptop under 60k",
+    "ratings": 4.6
   },
   {
     "id": 4,
@@ -26,19 +26,19 @@
   {
     "id": 5,
     "name": "Galloway Hancock",
-    "review": "Best in Budget",
-    "ratings": 5
+    "review": "Using almost 7 months,still no issue with this laptop",
+    "ratings": 4.9
   },
   {
     "id": 6,
     "name": "Stout Marsh",
-    "review": "Best in Budget",
-    "ratings": 4
+    "review": "Recommended to buy this laptop",
+    "ratings": 4.2
   },
   {
     "id": 7,
     "name": "Earlene Santos",
-    "review": "Best in Budget",
-    "ratings": 4
+    "review": "MSI is the best",
+    "ratings": 5
   }
 ]
