@@ -1,5 +1,5 @@
 import React from 'react';
-import { XAxis, YAxis, Tooltip, Legend, Bar, CartesianGrid, BarChart, Pie, PieChart } from 'recharts';
+import { XAxis, YAxis, Tooltip, Legend, Bar, CartesianGrid, BarChart, Pie, PieChart, Area, AreaChart } from 'recharts';
 
 const Dashboard = () => {
     const data = [{
@@ -43,7 +43,7 @@ const Dashboard = () => {
         <div className='grid grid-cols-2'>
             
             <div>
-                <h1 className='text-2xl font-medium'>Monthwise sell</h1>
+                <h1 className='text-2xl font-medium mx-16'>Monthwise sell</h1>
                 <BarChart
           width={500}
           height={300}
@@ -65,12 +65,38 @@ const Dashboard = () => {
         </BarChart>
             </div>
 
+             <div>
+                 <h1 h1 className = 'text-2xl font-medium mx-12' >
+                     Investment Vs Revenue
+                 </h1>
+                  <AreaChart
+          width={500}
+          height={400}
+          data={data}
+          margin={{
+            top: 10,
+            right: 30,
+            left: 0,
+            bottom: 0,
+          }}
+        >
+          <CartesianGrid strokeDasharray="3 3" />
+          <XAxis dataKey="investment" />
+          <YAxis />
+          <Tooltip />
+          <Area type="monotone" dataKey="revenue" stroke="#8884d8" fill="#8884d8" />
+        </AreaChart>
+            </div>
+
             <div>
+                <h1 className='text-2xl font-medium mx-16'>PieChart</h1>
                 <PieChart width={400} height={400}>
           <Pie data={data} dataKey="investment" cx="50%" cy="50%" outerRadius={60} fill="#8884d8" />
           <Pie data={data} dataKey="revenue" cx="50%" cy="50%" innerRadius={70} outerRadius={90} fill="#82ca9d" label />
         </PieChart>
             </div>
+
+           
 
         </div>
         
