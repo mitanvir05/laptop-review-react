@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Short Best",
+    "review": "Best in Budget",
+    "ratings": 3
+  },
+  {
+    "id": 2,
+    "name": "Lynne Logan",
+    "review": "Best in Budget",
+    "ratings": 1
+  },
+  {
+    "id": 3,
+    "name": "Ester Key",
+    "review": "Best in Budget",
+    "ratings": 2
+  },
+  {
+    "id": 4,
+    "name": "Freida Miller",
+    "review": "Best in Budget",
+    "ratings": 4
+  },
+  {
+    "id": 5,
+    "name": "Galloway Hancock",
+    "review": "Best in Budget",
+    "ratings": 5
+  },
+  {
+    "id": 6,
+    "name": "Stout Marsh",
+    "review": "Best in Budget",
+    "ratings": 4
+  },
+  {
+    "id": 7,
+    "name": "Earlene Santos",
+    "review": "Best in Budget",
+    "ratings": 4
+  }
+]
