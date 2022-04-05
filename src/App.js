@@ -9,6 +9,7 @@ import About from './Components/About/About';
 import Blogs from './Components/Blogs/Blogs';
 
 function App() {
+
   return (
     <div>
       <Header></Header>
